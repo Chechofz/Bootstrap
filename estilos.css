@@ -1,0 +1,193 @@
+.fondo-nav{
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    color: #b2afc7;
+}
+
+h1{
+    background-color: rgba(41, 79, 129, 0.856);
+    margin-bottom: 0;
+}
+
+.destacados{
+    height: 500px;
+    width: 100%;
+}
+
+.row{
+    height: 500px;
+}
+.matcin{
+    background-image: url(img/cincelado.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.mattre{
+    background-image: url(img/trenzado.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.matuy{
+    background-image: url(img/uruguayo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h2{
+    background-color: rgba(41, 79, 129, 0.856);
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    color: #b2afc7;
+}
+
+
+.mapa{
+    align-items: center;
+}
+
+.ubicacion{
+    width: 100%;
+    background-color: rgba(41, 79, 129, 0.856);
+    margin: 0;
+}
+
+
+.footer{
+    height: 200px;
+    width: 100%;
+    grid-area: footer;
+    background-color: rgba(41, 79, 129, 0.856);
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+}
+.redess{
+    color: #f5f5dc;
+    letter-spacing: 15px;
+}
+
+
+                /*CONTACTO*/
+
+                .registro{
+                    text-align: center;
+                    font-size: 25px;
+                    background-color: rgba(41, 79, 129, 0.856);
+                }
+
+
+                                /*PRODUCTOS*/
+
+.contenedor3{
+    display: grid;
+    background-color: rgba(41, 79, 129, 0.856);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 300px);
+    grid-template-areas: 
+    ". cin tren uru impe ."
+    ". loro paj  stan  tor ."
+    ". .  yerb yerb2   . .";
+}
+
+.cin{
+    grid-area: cin;
+    background-image: url(img/cincelado.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tren{
+    grid-area: tren;
+    background-image: url(img/trenzado.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.uru{
+    grid-area: uru;
+    background-image: url(img/uruguayo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.impe{
+    grid-area: impe;
+    background-image: url(img/imperial2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tor{
+    grid-area: tor;
+    background-image: url(img/torpedo2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.loro{
+    grid-area: loro;
+    background-image: url(img/bombilla\ pico\ loro.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.paj{
+    grid-area: paj;
+    background-image: url(img/bombilla\ pajarito.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.yerb{
+    grid-area: yerb;
+    background-image: url(img/yerbera1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.yerb2{
+    grid-area: yerb2;
+    background-image: url(img/yerbera2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.stan{
+    grid-area: stan;
+    background-image: url(img/Termo\ Stanley.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item{
+    border: 2px solid #808080;
+    margin: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+                        /*beneficios*/
+
+                        .contenedor2{
+                            background-color: rgba(41, 79, 129, 0.856);
+                        }
+
+                        h3{
+                            text-align: center;
+                            color: #b2afc7;
+                        }
+                        
+                        .main p{
+                            color: #000000;
+                            padding: 8px;
+                            text-align: left;
+                        }
